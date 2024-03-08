@@ -1,0 +1,29 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    text-align: center;
+    background-color: gray;
+}
+
+nav {
+    height: 100%;
+    width: 120px;
+    background-color: lightgray;
+    position: fixed;
+}
+
+p {
+    top: 75px;
+    left: 125px;
+    max-height: 100%;
+    position: fixed;
+    min-width: 240px;
+    overflow: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
